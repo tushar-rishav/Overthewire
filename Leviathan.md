@@ -1,4 +1,4 @@
-# Overthewire
+## [Leviathan](http://www.overthewire.org/wargames/leviathan/)
 
 ## Level 0
 ```sh
