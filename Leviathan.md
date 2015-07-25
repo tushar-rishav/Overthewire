@@ -3,7 +3,6 @@
 ## Level 0
 ```sh
 ls -al
-file .backup
 cd .backup
 ls -al
 cat bookmarks.html|grep password
