@@ -93,3 +93,35 @@ Level 11 password is ```IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR```
   cat data.txt|tr [a-mn-zA-MN-Z] [n-za-mN-ZA-M]
 ```
 Level 12 password is ```5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu```
+
+### Level 12
+```sh
+  mkdir /tmp/tushar/
+  cp data.txt /tmp/tushar/
+  cd /tmp/tushar/
+  xxd -r data.txt>data
+  file data
+  mv data data.gz
+  gunzip data.gz
+  file data
+  mv data data.bz2
+  bzip2 -d data.bz2
+  file data
+  mv data data.gz
+  gunzip data.gz
+  file data
+  tar -xvf data
+  file data5.bin
+  tar -xvf data5.bin
+  file data6.bin
+  mv data6.bin data6.bz
+  bzip2 -d data6.bz
+  file data6
+  tar -xvf data6
+  file data8.bin
+  mv data8.bin data8.gz
+  file data8      ### ASCII TEXT
+  cat data8  
+```
+Level 13 password is ```8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL```
+
