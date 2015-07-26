@@ -125,7 +125,7 @@ Level 12 password is ```5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu```
 ```
 Level 13 password is ```8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL```
 
-### Level 14
+### Level 13
 ```sh
   ls -al
   file sshkey.private
@@ -135,3 +135,4 @@ Level 13 password is ```8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL```
   cat bandit14
 ```
 Level 14 password is ```4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e```
+
