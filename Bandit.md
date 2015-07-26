@@ -59,4 +59,37 @@ Level 6 password is ```DXjZPULLxYr17uwoI01bNLQbtFemEgo7```
   ```
   Level 7 password is ```HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs```
 
+### Level 7
+```sh
+  ls -al
+  cat data.txt|grep millionth
+```
+Level 8 password is ```cvX2JJa4CFALtqS87jk27qwqGhBM9plV```
 
+### Level 8
+```sh
+  ls -al
+  sort data.txt|uniq -cu
+```
+Level 9 password is ```UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR```
+
+### Level 9
+  ```sh
+    ls -al
+    strings data.txt|grep =
+  ```
+Level 10 password is ```truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk```
+
+### Level 10
+```sh
+    ls -al
+    base64 -d data.txt
+```
+Level 11 password is ```IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR```
+
+### Level 11
+```sh
+  ls -al
+  cat data.txt|tr [a-mn-zA-MN-Z] [n-za-mN-ZA-M]
+```
+Level 12 password is ```5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu```
