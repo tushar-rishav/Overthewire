@@ -136,3 +136,19 @@ Level 13 password is ```8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL```
 ```
 Level 14 password is ```4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e```
 
+### Level 14
+```sh
+  telnet localhost 30000
+  4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+```
+Level 15 password is ```BfMYroe26WYalil77FoDi9qh59eK5xNr```
+
+### Level 15
+```sh
+  openssl
+  s_client -connect localhost:30001 -quiet
+  BfMYroe26WYalil77FoDi9qh59eK5xNr
+```
+Level 16 password is ```cluFn7wTiGryunymYOu4RcffSxQluehd```
+
+
