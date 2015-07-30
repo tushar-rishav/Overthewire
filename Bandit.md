@@ -173,3 +173,12 @@ Level 18 password is ```kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd```
   cat readme
 ```
 Level 19 password is ```IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x```
+```sh
+  ls -al
+  file bandit20-do
+  ./bandit20-do cat /etc/bandit_pass/bandit20
+```
+Level 20 password is ```GbKksEFF4yrVs6il55v6gwY5aVje5f0j```
+  
+
+```
