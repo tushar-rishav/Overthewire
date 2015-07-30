@@ -151,4 +151,25 @@ Level 15 password is ```BfMYroe26WYalil77FoDi9qh59eK5xNr```
 ```
 Level 16 password is ```cluFn7wTiGryunymYOu4RcffSxQluehd```
 
+### Level 16 & 17
+```sh
+  nmap -p31000-32000 localhost
+  openssl s_client -connect localhost:31790
+  cluFn7wTiGryunymYOu4RcffSxQluehd
+  mkdir -p /tmp/key/
+  cd /tmp/key/
+  touch sshkey.private
+  vim sshkey.private
+  ssh -i ./sshkey.private bandit17@localhost
+  diff --normal passwords.new passwords.old
+  
+```
+Level 18 password is ```kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd```
 
+### Level 18
+```sh
+  ssh -t bandit18@bandit.labs.overthewire.org /bin/sh
+  ls -al
+  cat readme
+```
+Level 19 password is ```IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x```
