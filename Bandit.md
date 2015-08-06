@@ -181,6 +181,20 @@ Level 19 password is ```IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x```
   ./bandit20-do cat /etc/bandit_pass/bandit20
 ```
 Level 20 password is ```GbKksEFF4yrVs6il55v6gwY5aVje5f0j```
-  
 
+### Level 20
+```sh
+  nc -l 4000 < /etc/bandit_pass/bandit20 & ./suconnect 4000
 ```
+Level 21 password is ```gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr```
+
+### Level 21
+```sh
+  cd /etc/cron.d/
+  ls -al
+  file cronjob_bandit22
+  cat /etc/cron.d/cronjob_bandit22
+  cat /usr/bin/cronjob_bandit22.sh
+  cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+```
+Level 22 password is ```Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI```
