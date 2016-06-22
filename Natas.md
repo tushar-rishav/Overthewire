@@ -38,3 +38,11 @@ We can easily [modify the headers](http://stackoverflow.com/a/29832996/3673031) 
 
 >Level 5: iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq
 
+### Level 5
+This level was simple. The page says *You are not logged in*. First thing that struck was to inspect the header and also to check if they are implementing session using cookies. Luckily, the request had `loggedin=0` as Cookie header. So all I had to do was to change value ( 1 based on the intuitions ) for the Cookie and send a fresh request. Now you may either use cookie inspector to edit the cookie or just send request via cURL. I preferred the latter :)
+> Level 6:  aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1
+
+### Level 6
+This level was probably the easiest. The given source code shows that the form secret field data is compared with `$secret` variable. The `$secret` variable is imported from `includes/secret.inc`. Inspecting this file exposes the value of `$secret`. Passing that value via form data returns the password for the next level.
+
+> Level 7: 7z3hEENjQtflzgnT29q7wAvMNfZdh0i9
